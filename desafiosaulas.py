@@ -351,7 +351,6 @@ plt.xlabel('Notas das Provas')
 plt.ylabel('Notas das Provas')
 
 # Desafio3: Filtrar as notas por seu estado ou sua cidade e refazer as análises, verificando se são semelhantes ao geral.
-# :bar_chart: Imersão de Dados 2 da Alura
 dados_pe = dados_sem_zero.query("SG_UF_RESIDENCIA == 'PE'")
 dados_sem_pe = dados_sem_zero.query("SG_UF_RESIDENCIA != 'PE'")
 
